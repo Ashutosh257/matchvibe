@@ -1,0 +1,140 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Vibe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Delius&display=swap" rel="stylesheet">
+    
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img class="img-logo" src="./assets/logo.svg" alt="">
+                </a>
+            </div>
+            <img src="./assets/ham.svg" alt="" class="ham" id="ham">
+            <div class="nav-items text-lg">
+                <a class="nav-sub-item" href="#">Go Vibing (App Link)</a>
+                <a class="nav-sub-item" href="#">Events</a>
+                <a class="nav-sub-item" href="#">Blog</a>
+                <a class="nav-sub-item" href="#">Story Time</a>
+                <a class="nav-sub-item" href="#">About us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1 class="hero-title text-6xl">
+                What's after swiping? 
+                <span class="text-highlight">
+                    Vibing!!
+                </span>
+            </h1>
+            <p class="mb-16 text-2xl">Carefully crafted dating experiences just for you.</p>
+            <button class="btn bg-pink-500 px-6 py-4 text-xl">
+                <a href="#cta-section">Get Early Access</a>
+            </button>
+        </section>
+
+        <section class="features-section">
+            <h2 class="text-6xl text-center my-8 font-bold">Features</h2>
+            <div class="features-grid text-center">
+                <div class="feature-item">
+                    <img src="./assets/features/feature1.svg" alt="">
+                    <h3 class="text-2xl">Vibe Match</h3>
+                    <p class="text-lg">Find your perfect match with our unique matching algorithm.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="./assets/features/feature2.svg" alt="">
+                    <h3 class="text-2xl">Vibe Events</h3>
+                    <p class="text-lg">Join our exclusive events and meet new people in real life.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="./assets/features/feature3.svg" alt="">
+                    <h3 class="text-2xl">Vibe Blog</h3>
+                    <p class="text-lg">Read our blog and get dating tips from experts.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="./assets/features/feature4.svg" alt="">
+                    <h3 class="text-2xl">Vibe Story Time</h3>
+                    <p class="text-lg">Read real life dating stories and share yours.</p>
+                </div>
+            </div>
+        
+        </section>
+
+        <!-- <section class="about-section">
+            <h2 class="text-6xl text-center my-8 font-bold">About Us</h2>
+            <div class="about-grid  text-center">
+                <div class="about-item">
+                    <img src="./assets/about/about1.svg" alt="">
+                    <h3 class="text-2xl">Our Mission</h3>
+                    <p class="text-lg">To create a safe and fun dating experience for everyone.</p>
+                </div>
+                <div class="about-item ">
+                    <img src="./assets/about/about2.svg" alt="">
+                    <h3 class="text-2xl">Our Vision</h3>
+                    <p class="text-lg">To make dating more meaningful and less superficial.</p>
+                </div>
+                <div class="about-item">
+                    <img src="./assets/about/about3.svg" alt="">
+                    <h3 class="text-2xl">Our Values</h3>
+                    <p class="text-lg">Transparency, Respect, and Fun.</p>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="cta-section">
+            <h2 class="text-6xl text-center my-8 font-bold">Get Early Access</h2>
+            <p class="text-center text-lg mb-8">Join our waitlist and get early access to our app.</p>
+            <form class="cta-form block text-center">
+                <input 
+                    type="email" 
+                    class="cta-input p-2 w-4/12 border-2 rounded mx-2" 
+                    placeholder="Enter your email" 
+                    required
+                >
+                <button class="btn bg-pink-300 px-6 py-2 text-xl">Join Waitlist</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-socials">
+            <a href="#"><img src="./assets/facebook.png" alt=""></a>
+            <a href="#"><img src="./assets/instagram.png" alt=""></a>
+            <a href="#"><img src="./assets/twitter.png" alt=""></a>
+        </div>
+        <div class="footer-links text-lg">
+                <a href="#">Community Rules</a>
+                <a href="#">Safety and Privacy</a>
+                <a href="#">Privacy Policy</a>
+                
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Cookie Policy</a>
+                
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Careers</a>
+        </div>
+        <p class="text-lg">MatchVibe &copy; 2024</p>   
+    </footer>
+    
+    <script type="module" src="index.js"></script>
+</body>
+</html>
